@@ -87,8 +87,16 @@ faceNet = cv2.dnn.readNet(prototxtPath, weightsPath)
 maskNet = load_model("mask_detector.model")
 
 # initialize the video stream
-print("[INFO] starting video stream...")
-vs = VideoStream(src=0).start()
+# vs = VideoStream(src=0).start()
+
+a = int(input("Enter 0/1 (Recorded Video/ Live Stream ::"))
+
+if(a==1):
+	print("[INFO] starting video stream...")
+    vs = VideoStream(src=0).start()
+else:
+	print("[INFO] starting video stream...")
+    vs = VideoStream(src='video.mp4').start()
 
 # loop over the frames from the video stream
 while True:
