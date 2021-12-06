@@ -92,11 +92,20 @@ maskNet = load_model("mask_detector.model")
 # vs = VideoStream(src='video.mp4').start()
 
 a = int(input("Enter 0/1 (Recorded Video/ Live Stream ::"))
+<<<<<<< HEAD
 
 if(a==1):
 	
     vs = VideoStream(src=0).start()
 else:
+=======
+print("[INFO] starting video stream...")
+if(a==1):
+	# print("[INFO] starting video stream...")
+    vs = VideoStream(src=0).start()
+else:
+	# print("[INFO] starting video stream...")
+>>>>>>> 90829baa4cb6e7c23498ac79b66bb5b7ea13b896
     vs = VideoStream(src='video.mp4').start()
 
 # loop over the frames from the video stream
