@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Lightweight Facemask Detection
 
 * With this project we aim to make a tool which will be able to detect if a person is wearing a mask properly covering the vital areas of nose and mouth.
@@ -11,12 +10,4 @@
 * Shivam Singhal
 * Kartik Nahta
 * Arpit Khandelwal
-=======
-# ai-jcomp 
 
-### Developed By
-### Shivam Singhal
-### Kartik Nahta
-### Arshdeep Bhatia
-### Arpit Khandelwal
->>>>>>> 90829baa4cb6e7c23498ac79b66bb5b7ea13b896
